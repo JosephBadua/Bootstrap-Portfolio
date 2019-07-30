@@ -12,7 +12,7 @@ body {
     border: 1px solid black !important;
 }
 .padding {
-    display: none;
+    visibility: hidden;
 }
 .headertop {
     height: 150px !important;
@@ -27,6 +27,9 @@ body {
     top: 63px;
     width: 400px;
 }
+.container-fluid {
+    margin-bottom: -40px !important;
+}
 
 .linkheader {
     font-size: 24px;
@@ -34,3 +37,27 @@ body {
     top: 75px;
     right: -20px;
 }
+
+.margin {
+    margin-top: 20px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+a:focus {
+    text-decoration: none;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;      
+}
+
+a:hover {
+    text-decoration: none;
+    color: cyan ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
