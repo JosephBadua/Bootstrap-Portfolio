@@ -8,3 +8,10 @@ body {
 .border {
     border: 1px solid black !important;
 }
+.padding {
+    display: none;
+}
+.headertop {
+    height: 100px !important;
+    background: white !important;
+}
