@@ -27,8 +27,8 @@ body {
     top: 63px;
     width: 400px;
 }
-.container-fluid {
-    margin-bottom: -40px !important;
+.container-fluid1 {
+    margin-bottom: -40px    ;
 }
 
 .linkheader {
@@ -60,4 +60,49 @@ a:hover {
     color: cyan ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.border {
+    border: 1px solid black;
+}
+.maincontainer {
+    background: white !important;
+    margin-top: 100px !important;
+    border: 1px solid black;
+    padding: 20px 50px;
+    margin-bottom: 40px;
+}
+.mainhr {
+    width: 100%;
+    text-align: center;
+    height: 0.2px;
+    background: black;
+}
+#Joseph {
+    color: #4aaaa5;
+}
+.leftname {
+    margin-left: 55px
+}
+.footercenter {
+    text-align: center;
+    background: black;
+    position: absolute;
+    bottom: 0px;
+    position: sticky;
+    height: 75px;
+    padding-top: 15px;
+    color: white;
+}
+textarea {
+  height: 200px !important;
+}
+#inputAddress {
+    border: none;
+    border-radius: 0px !important;
+    border-bottom: 2px solid #4aaaa5 !important;
+}
 
+.btn {
+    margin-top: 30px !important;
+    background: #4aaaa5 !important;
+    width: 200px !important;
+}
