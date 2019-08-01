@@ -106,3 +106,6 @@ textarea {
     background: #4aaaa5 !important;
     width: 200px !important;
 }
+.leftcontainer {
+    margin-left: -40px !important;
+}
