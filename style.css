@@ -109,3 +109,22 @@ textarea {
 .leftcontainer {
     margin-left: -40px !important;
 }
+
+.boxb {
+    animation: flickerAnimation 1s infinite;
+}
+.boxc {
+    animation: flickerAnimation2 1s infinite;
+}
+
+@keyframes flickerAnimation2 {
+    0%   { opacity:0.3;}
+    50%  { opacity:0.6;}
+    100% { opacity:1; }
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:0.4;}
+    50%  { opacity:0.8;}
+    100% { opacity:1; }
+}
